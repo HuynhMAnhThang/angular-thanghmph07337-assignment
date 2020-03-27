@@ -1,3 +1,3 @@
-# angular-thanghmph07337-assignment
+# thanghmph07337-angular-bai4
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-thanghmph07337-assignment)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/thanghmph07337-angular-bai4)
