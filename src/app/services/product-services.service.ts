@@ -15,5 +15,13 @@ getProduts():Observable<Product[]>{
 getProduct(id):Observable<Product>{
   return this.http.get<Product>(`${this.api}/${id}`);
 }
-
+addProduct(product):Observable<Product>{
+return this.http.post<Product>(this.api,product);
+}
+editProduct(product):Observable<Product>{
+return this.http.put<Product>(`${this.api}/${product.id}`,product);
+  }
+  removeProduct(id):Observable<Product>{
+    return this.http.delete<Product>(`${this.api}/${id}`);
+  }
 }
